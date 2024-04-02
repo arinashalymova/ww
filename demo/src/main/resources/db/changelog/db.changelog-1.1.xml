@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="2" author="you">
+        <sql>
+            INSERT INTO points (id, name, lat, lng) VALUES (1, 'Пушкин', 55.763702, 37.604795);
+            INSERT INTO points (id, name, lat, lng) VALUES (2, 'Dr. Живаго', 55.756718, 37.614085);
+            INSERT INTO points (id, name, lat, lng) VALUES (3, 'White Rabbit', 55.747508, 37.581782);
+            INSERT INTO points (id, name, lat, lng) VALUES (4, 'Butler', 55.765766, 37.595426);
+            INSERT INTO points (id, name, lat, lng) VALUES (5, 'Итальянский', 55.762281, 37.603915);
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>
